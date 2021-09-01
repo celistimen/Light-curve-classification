@@ -6,6 +6,6 @@ This folder contains a file with minimal code to extract the 24 most effective f
 
 ## Stellar explorer
 I developed a web application to visualize light curves and their features. The code can be found in this folder.
-The app uses the data in a different format (csv). The data can be downloaded [here](https://drive.google.com/file/d/1GBpZpAPH_u5mWztzTYrxCTVElWcLn1Ah/view?usp=sharing), and needs to be placed in the Stellar-explorer/data/ folder. However, because the data is proprietary, you require permission first. Contact me at celistimen@gmail.com if you want to use the data.
+The app uses the data in a different format (csv). The data can be downloaded [here](https://drive.google.com/file/d/1GBpZpAPH_u5mWztzTYrxCTVElWcLn1Ah/view?usp=sharing), and needs to be placed in the Stellar-explorer/data/ folder. However, because the data is proprietary permission is required first. Contact me at celistimen@gmail.com if you want to use the data.
 
 Note that the web app has not been tested in a production environment
