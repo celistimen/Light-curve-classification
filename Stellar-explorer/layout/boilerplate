@@ -1,0 +1,33 @@
+
+
+# This is the default file for a component, save this as XXXWindow.py and modify
+# this can be deleted
+
+
+
+
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
+import dash_bootstrap_components as dbc
+
+import dash_table
+from dash.dependencies import Input, Output, State, ClientsideFunction
+
+import globals
+
+
+def getXXXWindow(app):
+    # Getting and setting variables happens here, these should be gotten from 
+    #  the global settings file in the furute #todo
+    
+    
+    ### Layout
+    this = # make a layout here
+    
+    
+    ### Callbacks
+    # Define callbacks here
+    
+    
+    return this

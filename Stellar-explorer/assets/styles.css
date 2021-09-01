@@ -1,0 +1,381 @@
+
+
+/* Todo:
+add a hover for each element describing the function;
+
+Design:
+Data_selector:
+	if the amount of pulses is changed and the paging is enabled /disabled, 
+	the data_selector becomes wider or smaller, 
+
+*/
+
+#graph_2D_window #graph_div{
+
+}
+
+#main_window{
+	/*margin:10px;*/
+}
+
+#filter_button:disabled{
+	display: none;
+}
+#filter_button{
+	margin-left: 10px;
+
+}
+html{
+}
+
+#data_window{
+
+}
+#data_selector{
+    display: inline-block;
+    height: 600px;
+    overflow-y: scroll ;
+    overflow-x:hidden;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+    position: sticky;
+	top: 0;
+                      
+}
+
+#graph_div{
+}
+/*
+#voltage_graph{display: inline-block;}
+*/
+#console_out{
+	height: 350px;
+	overflow-y: auto;
+}
+
+.window{
+	border: 2px solid rgba(0,0,0,0.21);
+	border-radius: 8px;
+	padding: 5px;
+	margin: 2px;
+
+}
+
+.together{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+/*clearfix
+.window::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+.center {
+  margin: auto;
+
+}
+
+.popover .show .bs-popover-auto{
+	width: 500px;
+	max-width:500px;
+}
+.popover{
+	min-width:500px;
+	width: 500px;
+	max-width:500px;
+}
+
+div .Select-control{
+	margin-bottom:5px;
+}
+
+input[type= number]{
+	margin-top:2px;
+	margin-bottom:2px;
+
+}
+input[type= text]{
+	/*margin-bottom:5px;*/
+}
+input[type=radio]{
+	margin-right:5px;
+}
+input[type=checkbox]{
+	/*8*/
+}
+label{
+	margin-right: 5px;
+/*	margin-bottom: 0;
+*/}
+label[for]{
+	margin-top:4px;
+	margin-bottom:4px;
+}
+/*options*/
+#options_popover{
+	width : 500px;
+}
+.row{
+	margin-left: 0px;
+}
+
+.main_row {
+	margin-right:0px;
+}
+
+.left_column {
+	max-width: 300px;
+	padding-left: 0px;
+}
+
+.right_column {
+	max-width: 400px;
+	padding-right:0px;
+}
+
+.center_column{
+	width: 50%;
+	display: flex;
+}
+
+.tooltipped {
+    text-align:left;
+}
+
+td .dash-cell .column-0{
+	width:70px;
+	min-width : 70px;
+	max-width: 70px;
+}
+td .dash-cell .column-1{
+	width: 40px;
+	min-width : 40px;
+	max-width: 40px;
+}
+td .dash-cell .column-2{
+	width: 40px;
+	min-width : 40px;
+	max-width: 40px;
+}
+td .dash-cell .column-3{
+	max-width: 70px;
+	width:70px;
+	min-width : 70px;
+
+}
+/* there is probably a cleaner way, but there are three different tooltip classes, depending on where the tooltip should show up
+/*display on the right of the element*/
+.tooltipped .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  padding:10px;
+  left:0;
+  top:30%;
+  font-size: medium;
+  font-weight: normal;
+
+  line-height: 1.5;
+  white-space: break-spaces;
+
+
+}
+
+/*display on the left*/
+.tooltipped .tooltiptextleft {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  padding:10px;
+  right:50%;
+  font-size: medium;
+  font-weight: normal;
+
+  line-height: 1.5;
+  white-space: break-spaces;
+}
+
+.tooltipped:hover .tooltiptextleft {
+  visibility: visible;
+  transition-delay:1s;
+	
+  z-index: 999;
+}
+
+
+.tooltipped:hover .tooltiptext {
+  visibility: visible;
+  transition-delay:1s;
+	
+  z-index: 999;
+}
+
+.tooltipped .tooltiptexttop {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  padding:10px;
+  bottom:50%;
+  font-size: medium;
+  font-weight: normal;
+
+  line-height: 1.5;
+  white-space: break-spaces;
+}
+.tooltipped:hover .tooltiptexttop {
+  visibility: visible;
+  transition-delay:1s;
+	
+  z-index: 999;
+}
+
+
+
+#pulse_information_save {
+	margin-left: 10px;
+}
+
+
+.Select-control{
+	width: 100%;
+}
+
+
+
+summary:focus{
+	outline: none;
+}
+
+td .dash-cell:hover{
+	cursor: pointer !important;
+}
+
+input[type='checkbox']{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/*._dash-loading-callback {
+  font-family: sans-serif;
+  padding-top: 50px;
+  color: rgb(90, 90, 90);
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  cursor: progress;
+
+  opacity: 0;
+  background-color: rgb(250, 250, 250);
+  
+   
+  -moz-animation: fadein 0.5s ease-in 1s forwards; 
+  -webkit-animation: fadein 0.5s ease-in 1s forwards; 
+  -o-animation: fadein 0.5s ease-in 1s forwards; 
+	animation: fadein 0.5s ease-in 1s forwards;
+}
+*/
+
+
+
+._dash-loading-callback{
+	
+
+
+}
+
+._dash-loading-callback{
+	position: fixed;
+	width: 48px;
+	height: 48px;
+	margin-right:4px;
+	margin-top:4px;
+	top:0;
+	right:0;
+	z-index:10000;
+
+	transition-delay: 2s;
+	border-top: 5px solid green;
+	border-left: 5px solid yellow;
+	border-bottom: 5px solid orange;
+	border-right: 5px solid red;
+
+	border-radius: 50%;
+
+
+  	animation: 0.5s appear, spin 2s linear infinite;
+	animation-fill-mode: forwards;
+
+
+	visibility:hidden;
+
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes appear{
+	99%{
+		visibility: hidden;
+	}
+	100%{
+		visibility: visible;
+	}
+}
+
+/*loading icon*/
+
+/**[data-dash-is-loading="true"]{
+}
+*[data-dash-is-loading="true"]::before{
+    content: "Loading...";
+    display: inline-block;
+    color: magenta;
+    visibility: visible;
+}*/
+/*
+.loading {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.loading div {
+  animation: loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.loading div:after {
+ 
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #dfc;
+  margin: -4px 0 0 -4px;
+}
+*/
