@@ -5,8 +5,6 @@ Go to the folder Stellar-explorer/ with Anaconda (It does not work without Anaco
 Additional configuration will be required to deploy this app on a public server. For more information, see https://dash.plotly.com/deployment
 
 #### Dependencies:
-        All python packages are listed in setup.bat  
-        - Stellar-explorer/data/ needs to contain the data
 The app requires following packages to be installed:  (and others)
 - pip install dash==1.12.0 # although newer versions might work, only dash 1.12 was tested
 - pip install dash-bootstrap-components
