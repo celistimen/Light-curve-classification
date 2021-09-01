@@ -14,4 +14,4 @@ The app requires following packages to be installed:  (and others)
 The data (in csv format) needs to be placed in the Stellar-explorer/data/ folder.
 
 
-![example](https://github.com/celistimen/Light-curve-classification/blob/main/Stellar-explorer/example.png)
+![example](https://github.com/celistimen/Light-curve-classification/blob/main/Stellar-explorer/example.png?raw=true)
