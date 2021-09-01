@@ -6,3 +6,5 @@ This folder contains a file with minimal code to extract the 24 most effective f
 
 ## Stellar explorer
 I developed a web application to visualize light curves and their features. The code can be found in this folder.
+
+Note that the web app has not been tested in a production environment
