@@ -10,8 +10,6 @@ from dash.dependencies import Input, Output, State # Wel degelijk gebruikt
 from dash import no_update
 import Jupyter.Lib.Visualisation as dv
 
-import numpy as np
-import logging
 
 import globals
 

@@ -6,21 +6,15 @@
 
 
 
-import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
 
-import dash_table
-from dash.dependencies import Input, Output, State
+from dash.dependencies import Input, Output
 from dash_extensions.callback import DashCallbackBlueprint
-from utility import getHelpBadge
-from utility import getText
 import Jupyter.Lib.Visualisation as dv
-import json
 
 import globals
-import logging
 
 dcb = DashCallbackBlueprint() 
 

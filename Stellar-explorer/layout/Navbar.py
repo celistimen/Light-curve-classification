@@ -95,8 +95,6 @@ def getNavbar(app):
                 [button_id, propertyName] = ctx.triggered[0]['prop_id'].split('.');
                 graph_id = button_id.split("_height_slider")[0]
                 globals.height_options["graph_height"][graph_id] = height
-                globals.GCM.updateCache("graph_height",globals.height_options["graph_height"])
-                globals.GCM.up_to_date = False # updated when polled
                 style["height"] = height
             return style
             
