@@ -12,3 +12,6 @@ The app requires following packages to be installed:  (and others)
 - pip install scipy  
 
 The data (in csv format) needs to be placed in the Stellar-explorer/data/ folder.
+
+
+![example](https://github.com/celistimen/Light-curve-classification/blob/main/Stellar-explorer/example.png)
