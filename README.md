@@ -1,5 +1,5 @@
 # Light-curve-classification
-For my second [dissertation](https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71255510430001471&context=L&vid=KULeuven&lang=en_US&search_scope=ALL_CONTENT&adaptor=Local%20Search%20Engine&tab=all_content_tab&query=any,contains,timen%20celis&offset=0), I worked with Kepler/TESS data to classify stars based on their variability type. 
+For my second [dissertation](https://limo.libis.be/primo-explore/fulldisplay?docid=32LIBIS_ALMA_DS71255510430001471&context=L&vid=KULeuven&lang=en_US&search_scope=ALL_CONTENT&adaptor=Local%20Search%20Engine&tab=all_content_tab&query=any,contains,timen%20celis&offset=0), I worked with Kepler/TESS data to classify stars based on their variability type. The STellar explorer application was made to explore the data set. The application can be found here: [Stellar explorer](http://stellarexplorer.timencelis.be/)
 
 ## Feature extraction
 This folder contains a file with minimal code to extract the 24 most effective features for light curve classification, based on tsfresh, TSFEL, and Cesium, using forward feature selection. Additionally, an example is included to show the usage.
